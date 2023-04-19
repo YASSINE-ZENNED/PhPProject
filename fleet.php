@@ -1,5 +1,6 @@
 <?php require_once 'includes/header.php'; ?>
 <?php include "includes/dbh.inc.php";?>
+<link rel="stylesheet" href="assets/css/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
 
   <body>
 
@@ -63,14 +64,14 @@
                   echo '<img src="assets/img/'.$row['image']. '.jpg"  width="300" height="300" alt="">';
                   echo '</div>';
                   echo '<div class="down-content">';
-                  echo '<strong>from</strong> <span> $120</span> <strong>per weekend</strong>';
-                  echo '<a href="offers.html"><h4>Lorem ipsum dolor sit amet, consectetur</h4></a>';
+                  echo '<strong> </strong> <span>'. $row['price'] . '$</span> <strong>/Month</strong>';
+                  echo '<a href="offers.php"><h4><strong>'.$row['type'].'  </strong></h4></a>';
                   echo '<p>
                       
-                      <i class="fa fa-user" title="passegengers"></i> 5 &nbsp;&nbsp;&nbsp;
-                      <i class="fa fa-briefcase" title="luggages"></i> 4 &nbsp;&nbsp;&nbsp;
-                      <i class="fa fa-sign-out" title="doors"></i> 4 &nbsp;&nbsp;&nbsp;
-                      <i class="fa fa-cog" title="transmission"></i> A
+                       <i class="fa fa-bed" aria-hidden="true" title="bed"></i> ' .$row['bed'] .'&nbsp;&nbsp;&nbsp;
+                      <i class="fa fa-bath" aria-hidden="true" title="bath "></i> ' .$row['bath'] .' &nbsp;&nbsp;&nbsp;
+                    <i class="fa fa-square" aria-hidden="true"> ' .$row['size'] .' &nbsp;&nbsp;&nbsp;</i><br>
+                     <i class="fa fa-map" aria-hidden="true"></i> ' .$row['addresse'] .'
                   
                   </p>';
                   echo '<div class="post-options">
