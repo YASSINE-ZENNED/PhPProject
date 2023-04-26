@@ -79,7 +79,7 @@
                       <div class="col-lg-12">
                         <ul class="post-tags">
                           <li><i class="fa fa-bullseye"></i></li>
-                          <li><a href="#" data-toggle="modal" data-target="#exampleModal">Book Now</a></li>
+                          <li><a href="#" data-toggle="modal" data-target="#exampleModal">Rent Now</a></li>
                         </ul>
                       </div>
                     </div>
@@ -315,15 +315,12 @@
             <div class="contact-form">
               <form action="#" id="contact">
                   <div class="row">
-                       <div class="col-md-6">
-                          <fieldset>
-                            <input type="text" class="form-control" placeholder="Pick-up location" required="">
-                          </fieldset>
-                       </div>
 
-                       <div class="col-md-6">
+
+                       <div class="col-md-12">
                           <fieldset>
-                            <input type="text" class="form-control" placeholder="Return location" required="">
+
+                             <textarea id="details" class="form-control" name="details" rows="4" cols="50"  placeholder="details"></textarea>
                           </fieldset>
                        </div>
                   </div>
@@ -331,13 +328,13 @@
                   <div class="row">
                        <div class="col-md-6">
                           <fieldset>
-                            <input type="text" class="form-control" placeholder="Pick-up date/time" required="">
+                            <input type="text" class="form-control" placeholder="Rent from" required="">
                           </fieldset>
                        </div>
 
                        <div class="col-md-6">
                           <fieldset>
-                            <input type="text" class="form-control" placeholder="Return date/time" required="">
+                            <input type="text" class="form-control" placeholder="Rent to" required="">
                           </fieldset>
                        </div>
                   </div>
