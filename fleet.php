@@ -91,191 +91,48 @@
 
               }
               ?>
-<!--            <div class="col-md-4 col-sm-6">-->
-<!--              <div class="blog-post">-->
-<!--                <div class="blog-thumb">-->
-<!--                  <img src="assets/images/product-1-720x480.jpg" alt="">-->
-<!--                </div>-->
-<!--                <div class="down-content">-->
-<!--                  <strong>from</strong> <span> $120</span> <strong>per weekend</strong>-->
-<!--                  <a href="offers.html"><h4>Lorem ipsum dolor sit amet, consectetur</h4></a>-->
-<!--                  <p>-->
-<!--                      -->
-<!--                      <i class="fa fa-user" title="passegengers"></i> 5 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-briefcase" title="luggages"></i> 4 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-sign-out" title="doors"></i> 4 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-cog" title="transmission"></i> A-->
-<!--                  -->
-<!--                  </p>-->
-<!--                  <div class="post-options">-->
-<!--                    <div class="row">-->
-<!--                      <div class="col-lg-12">-->
-<!--                        <ul class="post-tags">-->
-<!--                          <li><i class="fa fa-bullseye"></i></li>-->
-<!--                          <li><a href="#" data-toggle="modal" data-target="#exampleModal">Book Now</a></li>-->
-<!--                        </ul>-->
-<!--                      </div>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-4 col-sm-6">-->
-<!--              <div class="blog-post">-->
-<!--                <div class="blog-thumb">-->
-<!--                  <img src="assets/images/product-2-720x480.jpg" alt="">-->
-<!--                </div>-->
-<!--                <div class="down-content">-->
-<!--                  <strong>from</strong> <span> $120</span> <strong>per weekend</strong>-->
-<!--                  <a href="offers.html"><h4>Lorem ipsum dolor sit amet, consectetur</h4></a>-->
-<!--                  <p>-->
-<!--                      -->
-<!--                      <i class="fa fa-user" title="passegengers"></i> 5 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-briefcase" title="luggages"></i> 4 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-sign-out" title="doors"></i> 4 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-cog" title="transmission"></i> A-->
-<!--                  -->
-<!--                  </p>-->
-<!--                  <div class="post-options">-->
-<!--                    <div class="row">-->
-<!--                      <div class="col-lg-12">-->
-<!--                        <ul class="post-tags">-->
-<!--                          <li><i class="fa fa-bullseye"></i></li>-->
-<!--                          <li><a href="#" data-toggle="modal" data-target="#exampleModal">Book Now</a></li>-->
-<!--                        </ul>-->
-<!--                      </div>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-4 col-sm-6">-->
-<!--              <div class="blog-post">-->
-<!--                <div class="blog-thumb">-->
-<!--                  <img src="assets/images/product-3-720x480.jpg" alt="">-->
-<!--                </div>-->
-<!--                <div class="down-content">-->
-<!--                  <strong>from</strong> <span> $120</span> <strong>per weekend</strong>-->
-<!--                  <a href="offers.html"><h4>Lorem ipsum dolor sit amet, consectetur</h4></a>-->
-<!--                  <p>-->
-<!--                      -->
-<!--                      <i class="fa fa-user" title="passegengers"></i> 5 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-briefcase" title="luggages"></i> 4 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-sign-out" title="doors"></i> 4 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-cog" title="transmission"></i> A-->
-<!--                  -->
-<!--                  </p>-->
-<!--                  <div class="post-options">-->
-<!--                    <div class="row">-->
-<!--                      <div class="col-lg-12">-->
-<!--                        <ul class="post-tags">-->
-<!--                          <li><i class="fa fa-bullseye"></i></li>-->
-<!--                          <li><a href="#" data-toggle="modal" data-target="#exampleModal">Book Now</a></li>-->
-<!--                        </ul>-->
-<!--                      </div>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!---->
-<!--            <div class="col-md-4 col-sm-6">-->
-<!--              <div class="blog-post">-->
-<!--                <div class="blog-thumb">-->
-<!--                  <img src="assets/images/product-4-720x480.jpg" alt="">-->
-<!--                </div>-->
-<!--                <div class="down-content">-->
-<!--                  <strong>from</strong> <span> $120</span> <strong>per weekend</strong>-->
-<!--                  <a href="offers.html"><h4>Lorem ipsum dolor sit amet, consectetur</h4></a>-->
-<!--                  <p>-->
-<!--                      <i class="fa fa-user" title="passegengers"></i> 5 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-briefcase" title="luggages"></i> 4 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-sign-out" title="doors"></i> 4 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-cog" title="transmission"></i> A-->
-<!--                  </p>-->
-<!--                  <div class="post-options">-->
-<!--                    <div class="row">-->
-<!--                      <div class="col-lg-12">-->
-<!--                        <ul class="post-tags">-->
-<!--                          <li><i class="fa fa-bullseye"></i></li>-->
-<!--                          <li><a href="#" data-toggle="modal" data-target="#exampleModal">Book Now</a></li>-->
-<!--                        </ul>-->
-<!--                      </div>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-4 col-sm-6">-->
-<!--              <div class="blog-post">-->
-<!--                <div class="blog-thumb">-->
-<!--                  <img src="assets/images/product-5-720x480.jpg" alt="">-->
-<!--                </div>-->
-<!--                <div class="down-content">-->
-<!--                  <strong>from</strong> <span> $120</span> <strong>per weekend</strong>-->
-<!--                  <a href="offers.html"><h4>Lorem ipsum dolor sit amet, consectetur</h4></a>-->
-<!--                  <p>-->
-<!--                      <i class="fa fa-user" title="passegengers"></i> 5 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-briefcase" title="luggages"></i> 4 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-sign-out" title="doors"></i> 4 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-cog" title="transmission"></i> A-->
-<!--                  </p>-->
-<!--                  <div class="post-options">-->
-<!--                    <div class="row">-->
-<!--                      <div class="col-lg-12">-->
-<!--                        <ul class="post-tags">-->
-<!--                          <li><i class="fa fa-bullseye"></i></li>-->
-<!--                          <li><a href="#" data-toggle="modal" data-target="#exampleModal">Book Now</a></li>-->
-<!--                        </ul>-->
-<!--                      </div>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-4 col-sm-6">-->
-<!--              <div class="blog-post">-->
-<!--                <div class="blog-thumb">-->
-<!--                  <img src="assets/images/product-6-720x480.jpg" alt="">-->
-<!--                </div>-->
-<!--                <div class="down-content">-->
-<!--                  <strong>from</strong> <span> $120</span> <strong>per weekend</strong>-->
-<!--                  <a href="offers.html"><h4>Lorem ipsum dolor sit amet, consectetur</h4></a>-->
-<!--                  <p>-->
-<!--                      -->
-<!--                      <i class="fa fa-user" title="passegengers"></i> 5 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-briefcase" title="luggages"></i> 4 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-sign-out" title="doors"></i> 4 &nbsp;&nbsp;&nbsp;-->
-<!--                      <i class="fa fa-cog" title="transmission"></i> A-->
-<!--                  -->
-<!--                  </p>-->
-<!--                  <div class="post-options">-->
-<!--                    <div class="row">-->
-<!--                      <div class="col-lg-12">-->
-<!--                        <ul class="post-tags">-->
-<!--                          <li><i class="fa fa-bullseye"></i></li>-->
-<!--                          <li><a href="#" data-toggle="modal" data-target="#exampleModal">Book Now</a></li>-->
-<!--                        </ul>-->
-<!--                      </div>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!---->
-<!--            <div class="col-sm-12">-->
-<!--              <ul class="page-numbers">-->
-<!--                <li><a href="#">1</a></li>-->
-<!--                <li class="active"><a href="#">2</a></li>-->
-<!--                <li><a href="#">3</a></li>-->
-<!--                <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>-->
-<!--              </ul>-->
-<!--            </div>-->
           </div>
         </div>
       </div>
     </section>
+    <?php
 
+if(isset($_POST['book'])){
+
+
+   $date = date('Y-m-d H:i:s');
+
+   $query = "INSERT INTO request VALUES ($, total_amount, user_id, sent) ";
+   $stmt = $con->prepare($query);
+
+   if ($stmt->execute()) {
+       $query = "SELECT t.t20pctID, t.main_artist, t.track_title, t.original_album, c.total_amount FROM cart c LEFT JOIN tblclaims t ON t.t20pctID = c.t20pctID WHERE t.t20pctID LIKE '%sony%' ORDER BY t.main_artist";
+       $stmt=$con->prepare($query);
+       $stmt->execute();
+       $to = "yassine.zenned.123.com";
+       $subject = "Test";
+       $headers = "MIME-Version: 1.0" . "\r\n";
+       $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+       $headers .= "From: Test <testmail1@mail.com>" . "\r\n";
+       $body = "Sent on: ". $date . "-\r\n";
+       while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+           extract($row);
+           $body .= "Track title: ".$row["track_title"]. "-";
+       }
+       $success = mail($headers, $to, $subject, $body);
+       if ($success) {
+           $query_delete = "DELETE FROM cart WHERE t20pctID LIKE '%sony%'";
+           $stmt = $con->prepare($query_delete);
+           $stmt->execute();
+           header('Location: cart.php?action=sent');
+       } else {
+           header('Location: cart.php?action=sent_failed');
+       }
+   } else {
+       header('Location: cart.php?action=sent_failed');
+   }
+}
+ ?>
     
     <footer>
       <div class="container">
@@ -301,6 +158,7 @@
     </footer>
 
     <!-- Modal -->
+    <form method="post" action="usefull\email.php">
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
@@ -328,28 +186,31 @@
                   <div class="row">
                        <div class="col-md-6">
                           <fieldset>
-                            <input type="text" class="form-control" placeholder="Rent from" required="">
+                             <label   class="form-control" for="Rent_from">Rent from:</label>
+                            <input  class="form-control" type="date" id="Rent_from" name="Rent_from">
                           </fieldset>
                        </div>
 
                        <div class="col-md-6">
                           <fieldset>
-                            <input type="text" class="form-control" placeholder="Rent to" required="">
+
+                            <label   class="form-control" >Rent to:</label>
+                            <input  class="form-control" type="date" id="Rent_to" name="Rent_to">
                           </fieldset>
                        </div>
                   </div>
-                  <input type="text" class="form-control" placeholder="Enter full name" required="">
+                  <input type="text" class="form-control" placeholder="Enter full name"  name="name" required="">
 
                   <div class="row">
                        <div class="col-md-6">
                           <fieldset>
-                            <input type="text" class="form-control" placeholder="Enter email address" required="">
+                            <input type="text" class="form-control" placeholder="Enter email address" name="e_mail" required="">
                           </fieldset>
                        </div>
 
                        <div class="col-md-6">
                           <fieldset>
-                            <input type="text" class="form-control" placeholder="Enter phone" required="">
+                            <input type="text" class="form-control" placeholder="Enter phone" name="phone" required="">
                           </fieldset>
                        </div>
                   </div>
@@ -359,13 +220,15 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-            <button type="button" class="btn btn-primary">Book Now</button>
+            <button type="submit" class="btn btn-primary" name="book">Book Now</button>
           </div>
         </div>
       </div>
     </div>
-
+</form>
     <!-- Bootstrap core JavaScript -->
+
+    </script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
