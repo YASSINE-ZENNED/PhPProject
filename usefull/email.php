@@ -1,5 +1,7 @@
 <?php
 
+
+
     include "../includes/dbh.inc.php";
 
 if(isset($_POST['details']) && isset($_POST['Rent_from']) && isset($_POST['Rent_to']) && isset($_POST['name']) && isset($_POST['e_mail'])&& isset($_POST['phone'])){
@@ -23,5 +25,20 @@ if(isset($_POST['details']) && isset($_POST['Rent_from']) && isset($_POST['Rent_
                   echo "shit";
               }
 
+
+
+
+              $to = 'yassine.zenned.123@gmail.com';
+              $subject = 'Test email';
+              $message = 'This is a test email sent using the mail() function in PHP.';
+              $headers = 'From: sender@example.com' . "\r\n" .
+                  'Reply-To: sender@example.com' . "\r\n" .
+                  'X-Mailer: PHP/' . phpversion();
+
+              mail($to, $subject, $message, $headers);
+
               }
+
+
+
 ?>

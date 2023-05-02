@@ -50,7 +50,7 @@
               // assuming $conn is your PDO connection object
 
               if (isset($conn)) {
-                  $stmt = $conn->prepare('SELECT * FROM rentals ');
+                  $stmt = $conn->prepare('SELECT * FROM rentals  ORDER BY RAND() LIMIT 5;');
               }else{
                   echo "fuck this shit";
               }
@@ -65,7 +65,7 @@
                   echo '</div>';
                   echo '<div class="down-content">';
                   echo '<strong> </strong> <span>'. $row['price'] . '$</span> <strong>/Month</strong>';
-                  echo '<a href="offers.php"><h4><strong>'.$row['type'].'  </strong></h4></a>';
+                  echo '<h4><strong>'.$row['type'].'  </strong></h4>';
                   echo '<p>
                       
                        <i class="fa fa-bed" aria-hidden="true" title="bed"></i> ' .$row['bed'] .'&nbsp;&nbsp;&nbsp;
@@ -95,45 +95,7 @@
         </div>
       </div>
     </section>
-    <?php
 
-if(isset($_POST['book'])){
-
-
-   $date = date('Y-m-d H:i:s');
-
-   $query = "INSERT INTO request VALUES ($, total_amount, user_id, sent) ";
-   $stmt = $con->prepare($query);
-
-   if ($stmt->execute()) {
-       $query = "SELECT t.t20pctID, t.main_artist, t.track_title, t.original_album, c.total_amount FROM cart c LEFT JOIN tblclaims t ON t.t20pctID = c.t20pctID WHERE t.t20pctID LIKE '%sony%' ORDER BY t.main_artist";
-       $stmt=$con->prepare($query);
-       $stmt->execute();
-       $to = "yassine.zenned.123.com";
-       $subject = "Test";
-       $headers = "MIME-Version: 1.0" . "\r\n";
-       $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-       $headers .= "From: Test <testmail1@mail.com>" . "\r\n";
-       $body = "Sent on: ". $date . "-\r\n";
-       while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-           extract($row);
-           $body .= "Track title: ".$row["track_title"]. "-";
-       }
-       $success = mail($headers, $to, $subject, $body);
-       if ($success) {
-           $query_delete = "DELETE FROM cart WHERE t20pctID LIKE '%sony%'";
-           $stmt = $con->prepare($query_delete);
-           $stmt->execute();
-           header('Location: cart.php?action=sent');
-       } else {
-           header('Location: cart.php?action=sent_failed');
-       }
-   } else {
-       header('Location: cart.php?action=sent_failed');
-   }
-}
- ?>
-    
     <footer>
       <div class="container">
         <div class="row">

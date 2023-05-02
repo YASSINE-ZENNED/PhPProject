@@ -21,120 +21,45 @@
     <div class="main-banner header-text">
       <div class="container-fluid">
         <div class="owl-banner owl-carousel">
-          <div class="item">
-            <img src="assets/images/product-1-720x480.jpg" alt="">
-            <div class="item-content">
-              <div class="main-content">
-                <div class="meta-category">
-                  <span>
-                    <i class="fa fa-user"></i> 5 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-briefcase"></i> 4 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-sign-out"></i> 4 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-cog"></i> A
-                  </span>
+<?php
+
+
+// assuming $conn is your PDO connection object
+
+if (isset($conn)) {
+    $stmt = $conn->prepare('SELECT * FROM rentals ');
+}else{
+    echo "fuck this shit";
+}
+
+$stmt->execute();
+
+while ($row = $stmt->fetch()) {
+          echo ' <div class="item">';
+
+            echo '<img src="assets/img/'.$row['image']. '.jpg"  width="300" height="300" alt="">';
+            echo ' <div class="item-content">';
+             echo ' <div class="main-content">';
+            echo '    <div class="meta-category">';
+               echo '  <p style="background-color: rgba(128, 128, 128, 0.5);">
+                       <font color="#ff4500">  
+
+
+                       <i class="fa fa-bed" aria-hidden="true" title="bed"></i> ' .$row['bed'] .'&nbsp;&nbsp;&nbsp;
+                      <i class="fa fa-bath" aria-hidden="true" title="bath "></i> ' .$row['bath'] .' &nbsp;&nbsp;&nbsp;
+                    <i class="fa fa-square" aria-hidden="true"> ' .$row['size'] .' &nbsp;&nbsp;&nbsp;</i><br>
+                     <i class="fa fa-map" aria-hidden="true"></i> ' .$row['addresse'] .'
+                  </font> 
+                  </p>
                 </div>
-                <a href="fleet.php"><h4>Lorem ipsum dolor sit amet.</h4></a>
-                <ul class="post-info">
-                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus minima error doloribus aliquid, optio dignissimos sint earum! Eos, blanditiis repudiandae.</li>
-                </ul>
+               
               </div>
             </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/product-2-720x480.jpg" alt="">
-            <div class="item-content">
-              <div class="main-content">
-                <div class="meta-category">
-                  <span>
-                    <i class="fa fa-user"></i> 5 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-briefcase"></i> 4 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-sign-out"></i> 4 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-cog"></i> A
-                  </span>
-                </div>
-                <a href="fleet.php"><h4>Lorem ipsum dolor sit amet.</h4></a>
-                <ul class="post-info">
-                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus minima error doloribus aliquid, optio dignissimos sint earum! Eos, blanditiis repudiandae.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/product-3-720x480.jpg" alt="">
-            <div class="item-content">
-              <div class="main-content">
-                <div class="meta-category">
-                  <span>
-                    <i class="fa fa-user"></i> 5 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-briefcase"></i> 4 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-sign-out"></i> 4 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-cog"></i> A
-                  </span>
-                </div>
-                <a href="fleet.php"><h4>Lorem ipsum dolor sit amet.</h4></a>
-                <ul class="post-info">
-                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus minima error doloribus aliquid, optio dignissimos sint earum! Eos, blanditiis repudiandae.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/product-4-720x480.jpg" alt="">
-            <div class="item-content">
-              <div class="main-content">
-                <div class="meta-category">
-                  <span>
-                    <i class="fa fa-user"></i> 5 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-briefcase"></i> 4 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-sign-out"></i> 4 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-cog"></i> A
-                  </span>
-                </div>
-                <a href="fleet.php"><h4>Lorem ipsum dolor sit amet.</h4></a>
-                <ul class="post-info">
-                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus minima error doloribus aliquid, optio dignissimos sint earum! Eos, blanditiis repudiandae.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/product-5-720x480.jpg" alt="">
-            <div class="item-content">
-              <div class="main-content">
-                <div class="meta-category">
-                  <span>
-                    <i class="fa fa-user"></i> 5 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-briefcase"></i> 4 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-sign-out"></i> 4 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-cog"></i> A
-                  </span>
-                </div>
-                <a href="fleet.php"><h4>Lorem ipsum dolor sit amet.</h4></a>
-                <ul class="post-info">
-                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus minima error doloribus aliquid, optio dignissimos sint earum! Eos, blanditiis repudiandae.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/product-6-720x480.jpg" alt="">
-            <div class="item-content">
-              <div class="main-content">
-                <div class="meta-category">
-                  <span>
-                    <i class="fa fa-user"></i> 5 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-briefcase"></i> 4 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-sign-out"></i> 4 &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-cog"></i> A
-                  </span>
-                </div>
-                <a href="fleet.php"><h4>Lorem ipsum dolor sit amet.</h4></a>
-                <ul class="post-info">
-                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus minima error doloribus aliquid, optio dignissimos sint earum! Eos, blanditiis repudiandae.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          </div>';
+
+              }
+?>
+
         </div>
       </div>
     </div>
@@ -146,16 +71,31 @@
           <h2 class="text-center">Offers</h2>
           <br>
           <div class="row">
-            <div class="col-md-4 col-sm-6">
-              <div class="blog-post">
-                <div class="blog-thumb">
-                  <img src="assets/images/offer-1-720x480.jpg" alt="">
-                </div>
-                <div class="down-content">
-                  <strong>from</strong> <span> $120</span> <strong>per weekend</strong>
-                  <a href="offers.php"><h4>Lorem ipsum dolor sit amet, consectetur</h4></a>
-                  <p>Nullam nibh mi, tincidunt sed sapien ut, rutrum hendrerit velit. Integer auctor a mauris sit amet eleifend.</p>
-                  <div class="post-options">
+
+                <?php
+
+
+                // assuming $conn is your PDO connection object
+
+                if (isset($conn)) {
+                    $stmt = $conn->prepare('SELECT * FROM rentals ORDER BY RAND() LIMIT 3;');
+                }else{
+                    echo "fuck this shit";
+                }
+
+                $stmt->execute();
+
+                while ($row = $stmt->fetch()) {
+               echo '<div class="col-md-4 col-sm-6">';
+               echo '   <div class="blog-post"><div class="blog-thumb">';
+            echo '<img src="assets/img/'.$row['image']. '.jpg"  width="300" height="300" alt="">';
+                    echo '  </div>
+                <div class="down-content">';
+                  echo '<strong> </strong> <span>'. $row['price'] . '$</span> <strong>/Month</strong>';
+                    echo '   <a href="offers.php"><h4>Lorem ipsum dolor sit amet, consectetur</h4></a>';
+
+
+                    echo ' <div class="post-options">
                     <div class="row">
                       <div class="col-lg-12">
                         <ul class="post-tags">
@@ -167,51 +107,10 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="blog-post">
-                <div class="blog-thumb">
-                  <img src="assets/images/offer-2-720x480.jpg" alt="">
-                </div>
-                <div class="down-content">
-                  <strong>from</strong> <span> $120</span> <strong>per weekend</strong>
-                  <a href="offers.php"><h4>Lorem ipsum dolor sit amet, consectetur</h4></a>
-                  <p>Nullam nibh mi, tincidunt sed sapien ut, rutrum hendrerit velit. Integer auctor a mauris sit amet eleifend.</p>
-                  <div class="post-options">
-                    <div class="row">
-                      <div class="col-lg-12">
-                        <ul class="post-tags">
-                          <li><i class="fa fa-bullseye"></i></li>
-                          <li><a href="offers.php">View More</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="blog-post">
-                <div class="blog-thumb">
-                  <img src="assets/images/offer-3-720x480.jpg" alt="">
-                </div>
-                <div class="down-content">
-                  <strong>from</strong> <span> $120</span> <strong>per weekend</strong>
-                  <a href="offers.php"><h4>Lorem ipsum dolor sit amet, consectetur</h4></a>
-                  <p>Nullam nibh mi, tincidunt sed sapien ut, rutrum hendrerit velit. Integer auctor a mauris sit amet eleifend.</p>
-                  <div class="post-options">
-                    <div class="row">
-                      <div class="col-lg-12">
-                        <ul class="post-tags">
-                          <li><i class="fa fa-bullseye"></i></li>
-                          <li><a href="offers.php">View More</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
+          </div>';
+                      }
+                ?>
           </div>
         </div>
       </div>
